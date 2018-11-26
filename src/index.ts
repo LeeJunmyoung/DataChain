@@ -84,8 +84,16 @@ const addBlock = (candidateBlock:Block):void =>{
 }
 
 createNewBlock("second block");
-createNewBlock("third block");
-createNewBlock("fourth block");
+setTimeout(() => {
+  createNewBlock("third block");  
+}, 2000);
 
-console.log(blockchain);
+setTimeout(() => {
+  createNewBlock("fourth block");  
+}, 4000);
+setTimeout(() => {
+  console.log(blockchain);  
+}, 6000);
+
+
 export {};
