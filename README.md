@@ -8,3 +8,6 @@
 
 ## typescript add
 > yarn add typescript
+
+## cryto-js add
+> yarn add cryto-js
